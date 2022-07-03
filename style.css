@@ -3138,6 +3138,7 @@ html[xmlns] .slider-wrap {
 }
 
 .header-size-md #header-wrap #logo img {
+	padding: 8px 0px;
 	height: 80px;
 }
 
