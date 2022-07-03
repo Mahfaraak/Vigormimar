@@ -212,7 +212,7 @@
 
 								<div class="form-result"></div>
 
-								<form class="mb-0" id="template-contactform" name="template-contactform" action="https://formsubmit.co/omerf542@gmail.com" method="post">
+								<form data-notify-msg="Mail Gönderildi" class="mb-0" id="template-contactform" action="/iletisim.php" method="POST">
 
 									<div class="form-process">
 										<div class="css3-spinner">
@@ -222,39 +222,32 @@
 
 									<div class="row">
 										<div class="col-md-6 form-group">
-											<input type="text" id="template-contactform-name" name="Ad" value="" class="sm-form-control border-form-control required" placeholder="Adınız" />
+											<input type="text" id="template-contactform-name" name="ad" value="" class="sm-form-control border-form-control required" placeholder="Adınız" />
 										</div>
 										<div class="col-md-6 form-group">
-											<input type="email" id="template-contactform-email" name="Email" value="" class="required email sm-form-control border-form-control" placeholder="Email Adresiniz" required/>
+											<input type="email" id="template-contactform-email" name="email" value="" class="required email sm-form-control border-form-control" placeholder="Email Adresiniz" required/>
 										</div>
 
 										<div class="w-100"></div>
 
 										<div class="col-md-4 form-group">
-											<input type="text" id="template-contactform-phone" name="Telefon numarası" value="" class="sm-form-control border-form-control" placeholder="Telefon" />
+											<input type="text" id="template-contactform-phone" name="telefon_numarasi" value="" class="sm-form-control border-form-control" placeholder="Telefon" />
 										</div>
 
 										<div class="col-md-8 form-group">
-											<input type="text" id="template-contactform-subject" name="Konu" value="" class="required sm-form-control border-form-control" placeholder="Konu" />
+											<input type="text" id="template-contactform-subject" name="konu" value="" class="required sm-form-control border-form-control" placeholder="Konu" />
 										</div>
 
 										<div class="w-100"></div>
 
 										<div class="col-12 form-group">
-											<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="Mesaj" rows="7" cols="30" placeholder="Mesajınız"></textarea>
+											<textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="mesaj" rows="7" cols="30" placeholder="Mesajınız"></textarea>
 										</div>
 
 										<div class="col-12 form-group">
 											<button class="button button-large button-color ml-0 topmargin-sm" type="submit" id="template-contactform-submit" name="Gönder" value="submit">Gönder</button>
 										</div>
-                                         <!-- Bu kısmı anlamadım -->
-										<div class="col-12 form-group d-none">
-											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck(?)" value="" class="sm-form-control" />
-										</div>
 									</div>
-
-									<input type="hidden" name="prefix" value="template-contactform-">
-
 								</form>
 
 							</div>
